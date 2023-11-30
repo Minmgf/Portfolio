@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Paytone+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "logo menu translate";
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 20% 40% 20%;
+    grid-template-areas: "pic info links";
+}
+
+

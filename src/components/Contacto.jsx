@@ -40,7 +40,7 @@ const Contacto = () => {
                     <form name='formulario-contacto' netlify method="POST">
                         <input type="text" placeholder='Nombre'  className='w-1/3 h-14 px-2 py-4 rounded-3xl bg-[#3D3838] text-white font-inter '/>
                         <input type="text" placeholder='Correo'  className='w-1/2 h-14 px-2 mx-4 py-4 rounded-3xl bg-[#3D3838] text-white font-inter '/>
-                        <textarea placeholder='Mensaje' className='w-[90%] px-2 py-2 bg-[#3D3838]  my-2 rounded-2xl h-1/2 resize-none' />
+                        <textarea placeholder='Mensaje' className='w-[90%] px-2 py-2 bg-[#3D3838] text-white font-inter  my-2 rounded-2xl h-1/2 resize-none' />
                         
                         <input type="submit" value="ENVIAR"  className=' px-6 py-3 bg-[#06D6A0] rounded-full font-semibold font-inter text-white hover:bg-[#41ac8f] active:scale-[.90] ' />
                     </form>

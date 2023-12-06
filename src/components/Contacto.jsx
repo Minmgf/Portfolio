@@ -6,17 +6,23 @@ import linkedinIcon from '../icons/linkedin.svg'
 
 const Contacto = () => {
   return (
-    <section className=' w-2/3 px-2 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl'>
-        <h2 className='w-full py-2 text-xl text-center text-white font-paytoneOne'>Contacto</h2>
-        <section className='flex ph:flex-col'>
+    <section className=' sm:hidden md:block w-2/3 px-4 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl'>
+        <h2 className='w-full my-2 text-xl text-center text-white font-paytoneOne'>Contacto</h2>
+        <section className='flex flex-row flex-wrap sm:px-4'>
         
-            <section className='flex flex-col w-1/2 px-8'>
+            <section className='flex flex-col w-full md:w-1/2'>
+                <div className="flex-col">
+
                 <h2 className='text-[#06D6A0] text-3xl font-paytoneOne '>¿QUÉ ESPERAS?</h2>
                 <p className='font-semibold text-white font-inter mt-7'>Puedes comunicarte conmigo a través de 
                     este formulario o por algunas de mis redes 
                     sociales.</p>
-                <div className="flex items-center ">
-                <img src={mailIcon} className='w-24 sm:hidden md:hidden lg:flex ' />
+                </div>
+                <div className="flex flex-col items-center md:flex-row ">
+                    <div className="hidden w-24 h-24 sm:block">
+                        <img src={mailIcon} className='w-full h-full' />
+                    </div>
+
                     <div className="py-5 mx-2 mt-6">
                         <p className='text-[26] font-semibold text-[#A08282]'>CORREO ELECTRONICO</p>
                         <p className='text-[24] font-semibold text-white'>Manuelinm2015@gmail.com</p>
@@ -35,8 +41,8 @@ const Contacto = () => {
                 </div>
             </section>
             
-            <section className='flex w-1/2'>
-                <div className="flex flex-row flex-wrap gap-4 my-6">
+            <section className='flex w-full md:w-1/2'>
+                <div className="flex flex-row flex-wrap gap-4 mx-auto my-6">
                     <form name="contact" method="POST" data-netlify="true">
                         <input type="text" placeholder='Nombre'  className='w-1/3 h-14 px-2 py-4 rounded-3xl bg-[#3D3838] text-white font-inter '/>
                         <input type="text" placeholder='Correo'  className='w-1/2 h-14 px-2 mx-4 py-4 rounded-3xl bg-[#3D3838] text-white font-inter '/>

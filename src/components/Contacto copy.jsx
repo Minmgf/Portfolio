@@ -6,9 +6,9 @@ import linkedinIcon from '../icons/linkedin.svg'
 
 const Contacto = () => {
   return (
-    <section className=' w-2/3 px-2 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl'>
+    <section className=' sm:hidden md:block w-2/3 px-2 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl'>
         <h2 className='w-full py-2 text-xl text-center text-white font-paytoneOne'>Contacto</h2>
-        <section className='flex gap-4'>
+        <section className='flex flex-row'>
         
             <section className='flex flex-col w-1/2 px-8'>
                 <h2 className='text-[#06D6A0] text-3xl font-paytoneOne '>¿QUÉ ESPERAS?</h2>
@@ -16,7 +16,8 @@ const Contacto = () => {
                     este formulario o por algunas de mis redes 
                     sociales.</p>
                 <div className="flex items-center ">
-                <img src={mailIcon} className='w-24 ' />
+                <img src={mailIcon} className='lg:w-24 sm:hidden md:hidden lg:block xl:hidden 2xl:hidden max-[391px]:hidden"
+                ' />
                     <div className="py-5 mx-2 mt-6">
                         <p className='text-[26] font-semibold text-[#A08282]'>CORREO ELECTRONICO</p>
                         <p className='text-[24] font-semibold text-white'>Manuelinm2015@gmail.com</p>

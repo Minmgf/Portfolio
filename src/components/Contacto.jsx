@@ -19,7 +19,7 @@ const Contacto = () => {
                     sociales.</p>
                 </div>
                 <div className="flex flex-col items-center md:flex-row ">
-                    <div className="hidden w-24 h-24 sm:block">
+                    <div className="hidden w-24 h-24 md:block">
                         <img src={mailIcon} className='w-full h-full' />
                     </div>
 

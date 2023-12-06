@@ -5,15 +5,15 @@ const Header = () => {
   return (
     <>
       <nav id='navbar' className="w-full shadow-md font-inter">
-        <div className="[grid-area:logo] flex justify-center items-center">
+        <div className="flex items-center justify-center ">
           <a href="/">
           <img src={myLogo} className='w-24 my-4 mx-7 '/>
           </a>
         </div>
-        <div className="[grid-area:menu] text-white flex justify-around text-xl   ml-5 pt-4">
-          <a href="/" className='hover:text-gray-400 active:scale-[.98] '>Sobre mi</a>
-          <a href="#" className='hover:text-gray-400 active:scale-[.98] '>Proyectos</a>
-          <a href="/" className='hover:text-gray-400 active:scale-[.98] '>Contacto</a>
+        <div className="flex justify-around invisible py-4 ml-5 text-xl text-white sm:visible sm:gap-8 xl:flex ">
+          <a href="/" className='hover:text-gray-400 active:scale-[.98] sm:text-center '>Sobre mi</a>
+          <a href="#" className='hover:text-gray-400 active:scale-[.98] sm:text '>Proyectos</a>
+          <a href="/" className='hover:text-gray-400 active:scale-[.98] sm:text '>Contacto</a>
         </div>
         <div className="[grid-area:translate] flex justify-center items-center pt-2">
           <a href="" >

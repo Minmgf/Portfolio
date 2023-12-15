@@ -7,11 +7,16 @@ export default {
   theme: {
     extend: {
       'logo': "url('src/icons/logo.svg')"
-
+      
     },
     fontFamily: {
       inter : ['inter', 'cursive'],
       paytoneOne: ['Paytone One'],
+    },
+    backgroundImage:{
+      'proyect1': "url('src/assets/palacioColesterol.png')",
+      'proyect2': "url('src/assets/fruitDetector.png')",
+
     },
   },
   plugins: [],

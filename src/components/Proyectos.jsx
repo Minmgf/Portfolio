@@ -7,6 +7,7 @@ import figmaIcon from '../icons/figma.svg'
 import jsIcon from '../icons/js.svg'
 import flaskIcon from '../icons/flask.svg'
 import React from 'react'
+import pj2Img from '../assets/fruitDetector.png'
 
 const Proyectos = () => {
   return (
@@ -18,6 +19,7 @@ const Proyectos = () => {
             {/* Proyecto #1 */}
             <section className='sm:w-full lg:w-[46%] h-72 rounded-2xl bg-[#1D1919]   flex font-paytoneOne'>
                 <section className="flex w-1/2 h-auto mx-4 bg-top bg-cover bg-proyect1 my-7 rounded-2xl">
+                    <img src="" alt="" />
                 {/* IMG */}
                 </section>
                 <section className='w-1/2 p-2 ml-2 my-7 h-4/5'>
@@ -54,7 +56,8 @@ const Proyectos = () => {
             
             {/* Proyecto #2 */}
             <section className='sm:w-full lg:w-[46%] h-72 rounded-2xl bg-[#1D1919]   flex font-paytoneOne'>
-                <section className="flex w-1/2 h-auto mx-4 bg-top bg-cover bg-proyect2 my-7 rounded-2xl">
+                <section className="flex w-1/2 h-auto mx-4 my-7 ">
+                    <img src={pj2Img} className='bg-center bg-cover bg-clip-border rounded-2xl' alt="" />
                 {/* IMG */}
                 </section>
                 <section className='w-1/2 p-2 ml-2 my-7 h-4/5'>

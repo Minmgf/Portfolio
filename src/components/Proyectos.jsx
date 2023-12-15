@@ -11,7 +11,7 @@ import React from 'react'
 const Proyectos = () => {
   return (
     <section className=' flex-row w-2/3 px-2 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl'>
-        <h2 className='w-full py-2 text-xl text-center text-white font-paytoneOne'>PROYECTOS</h2>
+        <h2 className='w-full py-2 text-xl text-center text-white font-paytoneOne' id='proyectos'>PROYECTOS</h2>
 
         <div className="flex flex-wrap justify-center gap-4 ">
            

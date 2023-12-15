@@ -6,7 +6,7 @@ import linkedinIcon from '../icons/linkedin.svg'
 
 const Contacto = () => {
   return (
-    <section className=' sm:block md:block w-2/3 px-4 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl'>
+    <section className=' sm:block md:block w-2/3 px-4 py-6 mx-auto my-20 h-auto bg-[#352E2E]  rounded-2xl' id='contact'>
         <h2 className='w-full my-2 text-xl text-center text-white font-paytoneOne'>Contacto</h2>
         <section className='flex flex-row flex-wrap sm:px-4'>
         

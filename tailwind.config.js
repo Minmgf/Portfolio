@@ -14,8 +14,8 @@ export default {
       paytoneOne: ['Paytone One'],
     },
     backgroundImage:{
-      'proyect1': "url('src/assets/palacioColesterol.png')",
-      'proyect2': "url('src/assets/fruitDetector.png')",
+      'proyect1': "url('assets/palacioColesterol.png')",
+      'proyect2': "url('assets/fruitDetector.png')",
 
     },
   },

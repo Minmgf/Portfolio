@@ -4,7 +4,7 @@ import gitHub from '../icons/github.svg'
 
 const Header = () => {
   return (
-    <div className='flex justify-center w-2/3 mx-auto mt-20 lg:flex-row md:flex-col '>
+    <div className='flex justify-center w-2/3 mx-auto mt-20 lg:flex-row md:flex-col ' id='home'>
         <div className="w-full sm:hidden md:block md:m-auto">
             <img src="https://avatars.githubusercontent.com/u/113538957?s=400&u=ee9af8821cf0232c9bb368eada412d94d21ff7e8&v=4" className='rounded-full '/>
         </div>

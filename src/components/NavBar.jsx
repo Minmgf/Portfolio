@@ -11,9 +11,9 @@ const Header = () => {
           </a>
         </div>
         <div className="flex justify-around invisible py-4 ml-5 text-xl text-white sm:visible sm:gap-8 xl:flex ">
-          <a href="/" className='hover:text-gray-400 active:scale-[.98] sm:text-center '>Sobre mi</a>
-          <a href="#" className='hover:text-gray-400 active:scale-[.98] sm:text '>Proyectos</a>
-          <a href="/" className='hover:text-gray-400 active:scale-[.98] sm:text '>Contacto</a>
+          <a href="#home" className='hover:text-gray-400 active:scale-[.98] sm:text-center '>Sobre mi</a>
+          <a href="#proyectos" className='hover:text-gray-400 active:scale-[.98] sm:text '>Proyectos</a>
+          <a href="#contact" className='hover:text-gray-400 active:scale-[.98] sm:text '>Contacto</a>
         </div>
         <div className="[grid-area:translate] flex justify-center items-center pt-2">
           <a href="" >

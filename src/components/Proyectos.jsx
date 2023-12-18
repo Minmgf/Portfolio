@@ -17,7 +17,7 @@ const Proyectos = () => {
         <div className="flex flex-wrap justify-center gap-4 ">
            
             {/* Proyecto #1 */}
-            <section className='sm:w-full lg:w-[46%] h-72 rounded-2xl bg-[#1D1919]   flex font-paytoneOne'>
+            <section className='sm:w-full lg:w-[46%]  rounded-2xl bg-[#1D1919]   flex font-paytoneOne'>
                 <section className="flex w-1/2 h-auto mx-4 bg-top bg-cover bg-proyect1 my-7 rounded-2xl">
                     <img src="" alt="" />
                 {/* IMG */}
@@ -35,15 +35,15 @@ const Proyectos = () => {
 
                     </section>
 
-                    <p className='text-[#877474] text-xs font-inter  my-2'>Landing desarrollada como proyecto universitario. Sitio web de restaurante *FICTICIO* de comidas rapidas en la ciudad de Neiva</p>
+                    <p className='text-[#877474] [font-size:10px] sm:text-xs font-inter   my-2'>Landing desarrollada como proyecto universitario. Sitio web de restaurante *FICTICIO* de comidas rapidas en la ciudad de Neiva</p>
 
                     <section className='flex justify-around mt-6 '>
                         <h3 className='text-xs text-white'>5/11/23</h3>
-                        <div className="flex sm:flex-col md:flex-row lg:flex-row">
-                            <a href="https://github.com/Minmgf/palacioColesterol" target='blank' className='sm:hidden md:flex hover:active:scale-[.90]'>
+                        <div className="flex sm:flex-row md:flex-row lg:flex-row">
+                            <a href="https://github.com/Minmgf/palacioColesterol" target='blank' className=' md:flex hover:active:scale-[.90]'>
                                 <img src={githubIcon} className='w-5 sm:mx-1 md:mx-2 fill-red-800' />
                             </a>
-                            <a href="https://palaciocolesterol.netlify.app" target='blank' className='sm:hidden md:flex hover:active:scale-[.90]'>
+                            <a href="https://palaciocolesterol.netlify.app" target='blank' className=' md:flex hover:active:scale-[.90]'>
                                 <img src={linkIcon} className='w-5' />
                             </a>
                         </div>
@@ -55,7 +55,7 @@ const Proyectos = () => {
            
             
             {/* Proyecto #2 */}
-            <section className='sm:w-full lg:w-[46%] h-72 rounded-2xl bg-[#1D1919]   flex font-paytoneOne'>
+            <section className='sm:w-full lg:w-[46%]  rounded-2xl bg-[#1D1919]   flex font-paytoneOne'>
                 <section className="flex w-1/2 h-auto mx-4 bg-top bg-cover bg-proyect2 my-7 rounded-2xl ">
                     {/* <img src={pj2Img} className='bg-center bg-cover bg-clip-border rounded-2xl' alt="" /> */}
                 {/* IMG */}
@@ -72,13 +72,13 @@ const Proyectos = () => {
 
                     </section>
 
-                    <p className='text-[#877474] text-xs font-inter  my-2'>Desarrollo de una aplicación web utilizando Flask, diseñada para realizar iteraciones con un modelo en formato H5. El propósito principal de esta aplicación es llevar a cabo análisis de imágenes</p>
+                    <p className='text-[#877474] [font-size:10px] sm:text-xs font-inter  my-2'>Desarrollo de una aplicación web utilizando Flask, diseñada para realizar iteraciones con un modelo en formato H5. El propósito principal de esta aplicación es llevar a cabo análisis de imágenes</p>
 
-                    <section className='flex justify-around mt-6 '>
+                    <section className='flex justify-around mt-6'>
                         <h3 className='text-xs text-white'>22/11/23</h3>
-                        <div className="flex sm:flex-col md:flex-row lg:flex-row">
-                            <a href="https://github.com/Minmgf/FruitDetector" target='blank' className='sm:hidden md:flex hover:active:scale-[.90]'>
-                                <img src={githubIcon} className='w-5 sm:mx-1 md:mx-2 fill-red-800' />
+                        <div className="flex flex-col sm:flex-col md:inline-block lg:flex-row">
+                            <a href="https://github.com/Minmgf/FruitDetector" target='blank' className=' md:flex hover:active:scale-[.90]'>
+                                <img src={githubIcon} className='w-5 mx-2 sm:mx-1 md:mx-2' />
                             </a>
                         </div>
                     </section>

@@ -7,6 +7,10 @@ import reactIcon from '../icons/slider/react.svg'
 import mongoIcon from '../icons/slider/mongo.svg'
 import pythonIcon from '../icons/slider/python.svg'
 import mysqlIcon from '../icons/slider/mysql.svg'
+import nextjs from '../icons/nextjs.svg'
+import pgsql from '../icons/pgsql.svg'
+import figma from '../icons/figma.svg'
+import github from '../icons/github.svg'
 
 const Habilidades = () => {
   return (
@@ -23,6 +27,11 @@ const Habilidades = () => {
                 <div className="slide"><img src={mongoIcon} alt="" /></div>
                 <div className="slide"><img src={pythonIcon} alt="" /></div>
                 <div className="slide"><img src={mysqlIcon} alt="" /></div>
+                <div className="slide"><img src={nextjs} alt="" /></div>
+                <div className="slide"><img src={pgsql} alt="" /></div>
+                <div className="slide"><img src={figma} alt="" /></div>
+                <div className="slide"><img src={github} alt="" /></div>
+                
                 
                 <div className="slide"><img src={htmlIcon} alt="" /></div>
                 <div className="slide"><img src={tailwindIcon} alt="" /></div>
@@ -31,7 +40,11 @@ const Habilidades = () => {
                 <div className="slide"><img src={mongoIcon} alt="" /></div>
                 <div className="slide"><img src={pythonIcon} alt="" /></div>
                 <div className="slide"><img src={mysqlIcon} alt="" /></div>
-
+                <div className="slide"><img src={nextjs} alt="" /></div>
+                <div className="slide"><img src={pgsql} alt="" /></div>
+                <div className="slide"><img src={figma} alt="" /></div>
+                <div className="slide"><img src={github} alt="" /></div>
+                
                 
                 <div className="slide"><img src={htmlIcon} alt="" /></div>
                 <div className="slide"><img src={tailwindIcon} alt="" /></div>
@@ -40,31 +53,12 @@ const Habilidades = () => {
                 <div className="slide"><img src={mongoIcon} alt="" /></div>
                 <div className="slide"><img src={pythonIcon} alt="" /></div>
                 <div className="slide"><img src={mysqlIcon} alt="" /></div>
-                <div className="slide"><img src={htmlIcon} alt="" /></div>
-                <div className="slide"><img src={tailwindIcon} alt="" /></div>
-                <div className="slide"><img src={cssIcon} alt="" /></div>
-                <div className="slide"><img src={reactIcon} alt="" /></div>
-                <div className="slide"><img src={mongoIcon} alt="" /></div>
-                <div className="slide"><img src={pythonIcon} alt="" /></div>
-                <div className="slide"><img src={mysqlIcon} alt="" /></div>
+                <div className="slide"><img src={nextjs} alt="" /></div>
+                <div className="slide"><img src={pgsql} alt="" /></div>
+                <div className="slide"><img src={figma} alt="" /></div>
+                <div className="slide"><img src={github} alt="" /></div>
                 
-                <div className="slide"><img src={htmlIcon} alt="" /></div>
-                <div className="slide"><img src={tailwindIcon} alt="" /></div>
-                <div className="slide"><img src={cssIcon} alt="" /></div>
-                <div className="slide"><img src={reactIcon} alt="" /></div>
-                <div className="slide"><img src={mongoIcon} alt="" /></div>
-                <div className="slide"><img src={pythonIcon} alt="" /></div>
-                <div className="slide"><img src={mysqlIcon} alt="" /></div>
-
                 
-                <div className="slide"><img src={htmlIcon} alt="" /></div>
-                <div className="slide"><img src={tailwindIcon} alt="" /></div>
-                <div className="slide"><img src={cssIcon} alt="" /></div>
-                <div className="slide"><img src={reactIcon} alt="" /></div>
-                <div className="slide"><img src={mongoIcon} alt="" /></div>
-                <div className="slide"><img src={pythonIcon} alt="" /></div>
-                <div className="slide"><img src={mysqlIcon} alt="" /></div>
-
             </div>
             
         </div>

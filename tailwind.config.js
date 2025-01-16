@@ -16,6 +16,8 @@ export default {
     backgroundImage:{
       'proyect1': "url('./assets/palacioColesterol.png')",
       'proyect2': "url('./assets/fruitDetector.png')",
+      'proyect3': "url('./assets/calidad.png')",
+      'proyect4': "url('./assets/secdep.png')",
 
     },
   },

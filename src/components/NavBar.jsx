@@ -15,11 +15,11 @@ const Header = () => {
           <a href="#proyectos" className='hover:text-gray-400 active:scale-[.98] sm:text '>Proyectos</a>
           <a href="#contact" className='hover:text-gray-400 active:scale-[.98] sm:text '>Contacto</a>
         </div>
-        <div className="[grid-area:translate] flex justify-center items-center pt-2">
+        {/* <div className="[grid-area:translate] flex justify-center items-center pt-2">
           <a href="" >
             <img src={translate} alt=""  />
           </a>
-        </div>
+        </div> */}
       </nav>
     </>
   );

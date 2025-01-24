@@ -27,9 +27,9 @@ const Proyectos = () => {
                         {/* IMG */}
                     </section>
                     <section className='w-1/2 ml-2 my-7 h-4/5'>
-                        <h3 className='text-xl  text-[#06D6A0]'>Sec Deporte Neiva</h3>
+                        <h3 className='md:text-xl text-lg   text-[#06D6A0]'>Sec Deporte Neiva</h3>
 
-                        <section className='flex w-5 gap-3 my-1 text-white'>
+                        <section className='hidden w-5 gap-3 my-1 text-white sm:flex'>
                             {/* Logos tecnologias */}
 
                             <img src={figmaIcon} alt="" />
@@ -66,9 +66,9 @@ const Proyectos = () => {
                         {/* IMG */}
                     </section>
                     <section className='w-1/2 ml-2 my-7 h-4/5'>
-                        <h3 className='text-xl  text-[#06D6A0]'>Gestor C/R</h3>
+                        <h3 className='md:text-xl text-lg text-[#06D6A0]'>Gestor C/R</h3>
 
-                        <section className='flex w-5 gap-3 my-1 text-white'>
+                        <section className='hidden w-5 gap-3 my-1 text-white sm:flex'>
                             {/* Logos tecnologias */}
 
                             <img src={figmaIcon} alt="" />
@@ -103,9 +103,9 @@ const Proyectos = () => {
                         {/* IMG */}
                     </section>
                     <section className='w-1/2 p-2 ml-2 my-7 h-4/5'>
-                        <h3 className='text-xl  text-[#06D6A0]'>Fruit Detector</h3>
+                        <h3 className='md:text-xl text-lg text-[#06D6A0]'>Fruit Detector</h3>
 
-                        <section className='flex w-5 gap-3 my-1 text-white'>
+                        <section className='hidden w-5 gap-3 my-1 text-white sm:flex'>
                             {/* Logos tecnologias */}
 
                             <img src={flaskIcon} alt="" />
@@ -135,9 +135,9 @@ const Proyectos = () => {
                         {/* IMG */}
                     </section>
                     <section className='w-1/2 p-2 ml-2 my-7 h-4/5'>
-                        <h3 className='text-xl  text-[#06D6A0]'>Palacio del colesterol</h3>
+                        <h3 className='md:text-xl text-lg  text-[#06D6A0]'>Palacio del colesterol</h3>
 
-                        <section className='flex w-5 gap-3 my-1 text-white'>
+                        <section className='hidden w-5 gap-3 my-1 text-white sm:flex'>
                             {/* Logos tecnologias */}
 
                             <img src={figmaIcon} alt="" />

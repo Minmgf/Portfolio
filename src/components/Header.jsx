@@ -8,9 +8,9 @@ const Header = () => {
         <div className="hidden w-full sm:hidden md:flex md:justify-center md:m-auto">
             <img src="https://avatars.githubusercontent.com/u/113538957?s=400&u=ee9af8821cf0232c9bb368eada412d94d21ff7e8&v=4" className='rounded-full '/>
         </div>
-        <div className="ml-2 ">
+        <div className="ml-4 md:ml-2">
             <p className='text-white font-inter'>¡HOLA!</p>
-            <h1 className='text-4xl text-white font-paytoneOne' >SOY <span className='text-[#06D6A0]'> MANUEL ISAIAS NAVARRO MONTEALEGRE</span> </h1>
+            <h1 className='md:text-4xl text-3xl text-white font-paytoneOne' >SOY <span className='text-[#06D6A0]'> MANUEL ISAIAS NAVARRO MONTEALEGRE</span> </h1>
             <p className='mt-4 text-white font-inter'>Amante de la tecnología y con una comprensión sólida del 
               desarrollo y los conceptos multimedia. Estudiante de ingeniería
               de software, me sumerjo en un constante proceso de aprendizaje 
@@ -44,11 +44,11 @@ const Header = () => {
         </div>
         <div className="flex flex-col justify-center sm:flex-col md:flex-row lg:flex-col">
             <a href="https://www.linkedin.com/in/manuel-navarro-m/" target='blank'
-            className=' w-8 my-4 mx-7 hover:active:scale-[.90]'>
+            className=' w-8 my-4 mx-4 md:mx-7 hover:active:scale-[.90]'>
               <img src={linkedIn}  className='w-full h-full ' />
             </a>
             <a href="https://github.com/Minmgf" target='blank'
-            className=' w-8 my-4 mx-7 hover:active:scale-[.90]'>
+            className=' w-8 my-4 mx-4 md:mx-7 hover:active:scale-[.90]'>
               <img src={gitHub} className='w-full h-full' />
             </a>            
         </div>
